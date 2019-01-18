@@ -1,14 +1,18 @@
 const express = require('express')
 const app = express()
-const port = 3005
+const port = process.env.PORT || 3005
 const data = require('./data.json')
 const cors = require('cors')
+const bodyParser = require('body-parser')
+const dotenv = require('dotenv').config()
 
 app.use(cors())
 
+app.use(bodyParser.json())
+
 app.use(express.static('public'))
 
-app.get('/data', (req, res, next) => {
+app.get('/', (req, res, next) => {
     res.status(200).send({
         "message": "Sucess!",
         "data": data
@@ -27,11 +31,12 @@ app.get('/:tags', (req, res, next) => {
         }
 })
 
+app.post('/', (req, res) => res.send('New Artist Has Been Added'))
+
+
 app.use((req,res, next) => {
     res.status(500).send('Something Went Terribly Wrong, Sorry.')
 })
-
-app.post('/newArtist', (req, res) => res.send('New artist has been added'))
 
 
 app.listen(port, () => console.log(`Ayyyy hmu on ${port}`))
