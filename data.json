@@ -1,19 +1,85 @@
 {
-    "day": [ "Friday", "Saturday", "Sunday"],
+    "day": [ "Friday", "Saturday", "Sunday", "Monday"],
     "headliners": [
         {
             "id": 1,
             "artist": "Joan Baez",
+            "time": "12:55am – 2:00am",
             "opener": "Oh Happy Day",
             "closer": "We Shall Overcome",
             "day": ["Friday"]
         },
         {
             "id": 2,
+            "artist": "Santana",
+            "time": "2:00pm – 2:45pm",
+            "opener": "Waiting",
+            "closer": "Fried Neckbones and Some Home Fries",
+            "day": ["Saturday"]   
+        },
+        {
+            "id": 3,
+            "artist": "Grateful Dead",
+            "time": "10:30pm – 12:05am",
+            "opener": "St. Stephen",
+            "closer": "Turn on Your Love Light" ,
+            "day": ["Saturday"]   
+        },
+        {
+            "id": 4,
+            "artist": "Creedence Clearwater Revival",
+            "time": "12:30am – 1:20am",
+            "opener": "Born on The Bayou",
+            "closer": "Susie Q" ,
+            "day": ["Saturday"]   
+        },
+        {
+            "id": 5,
             "artist": "Janis Joplin",
+            "time": "2:00am – 3:00am",
             "opener": "Raise Your Hand",
             "closer": "Ball 'n' Chain" ,
             "day": ["Saturday"]   
+        },
+        {
+            "id": 6,
+            "artist": "The Who",
+            "time": "5:00am – 6:05am",
+            "opener": "Heaven and Hell",
+            "closer": "Naked Eye" ,
+            "day": ["Sunday"]   
+        },
+        {
+            "id": 7,
+            "artist": "Jefferson Airplane",
+            "time": "8:00am – 9:40am",
+            "opener": "The Other Side of This Life",
+            "closer": "With a Little Help From My Friends" ,
+            "day": ["Sunday"]   
+        },
+        {
+            "id": 8,
+            "artist": "Joe Cocker",
+            "time": "2:00pm – 3:25pm",
+            "opener": "Dear Landlord",
+            "closer": "Ball 'n' Chain" ,
+            "day": ["Sunday"]   
+        },
+        {
+            "id": 9,
+            "artist": "Crosby, Stills, Nash, &Young",
+            "time": "3:00am – 4:00am",
+            "opener": "Suite: Judy Blue Eyes",
+            "closer": "49 Bye-Byes" ,
+            "day": ["Monday"]   
+        },
+        {
+            "id": 10,
+            "artist": "Jimi Hendrix",
+            "time": "9:00am – 11:10am",
+            "opener": "Raise Your Hand",
+            "closer": "Ball 'n' Chain" ,
+            "day": ["Monday"]   
         }
 
     ]
