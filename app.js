@@ -6,6 +6,10 @@ const cors = require('cors')
 const bodyParser = require('body-parser')
 const dotenv = require('dotenv').config()
 
+const environment = process.env.NODE_ENV || 'development';
+const knexConfig = require('./knexfile')[environment];
+const knex = require('knex')(knexConfig);
+
 app.use(cors())
 
 app.use(bodyParser.json())
@@ -19,8 +23,8 @@ app.get('/', (req, res, next) => {
     })
 })
 
-app.get('/:tags', (req, res, next) => {
-    const day = req.params.tags
+app.get('/:day', (req, res, next) => {
+    const day = req.params.day
    
     if(!data.day.includes(day)){
         res.status(404).send('No One Played This Day')
