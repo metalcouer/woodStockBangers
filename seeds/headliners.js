@@ -21,7 +21,8 @@ exports.seed = function(knex, Promise) {
                 opener:'Opened set with: Get a Job', 
                 closer:'Closed set with: Duke of Earl'}
       ]);
-    }).then(() => {
+    })
+    .then(() => {
       return knex.raw(
         "SELECT setval('headliners_id_seq', (SELECT MAX(id) FROM headliners));"
       );

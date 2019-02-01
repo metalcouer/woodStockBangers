@@ -17,6 +17,16 @@ app.use(bodyParser.json())
 app.use(express.static('public'))
 
 app.get('/', (req, res, next) => {
+    knex('woodstock-data')
+    .then((rows) => {
+      res.send(rows);
+    })
+    .catch((err) => {
+      next(err);
+    });
+})
+
+app.get('/', (req, res, next) => {
     res.status(200).send({
         "message": "Sucess!",
         "data": data
