@@ -4,81 +4,81 @@
         {
             "id": 1,
             "artist": "Joan Baez",
-            "time": "12:55am – 2:00am",
-            "opener": "Oh Happy Day",
-            "closer": "We Shall Overcome",
+            "time": "Played from: 12:55am – 2:00am",
+            "opener": "Opened set with: 'Oh Happy Day'",
+            "closer": "Closed set with: 'We Shall Overcome'",
             "day": ["Friday"]
         },
         {
             "id": 2,
             "artist": "Santana",
-            "time": "2:00pm – 2:45pm",
-            "opener": "Waiting",
-            "closer": "Fried Neckbones and Some Home Fries",
+            "time": "Played from: 2:00pm – 2:45pm",
+            "opener": "Opened set with: 'Waiting'",
+            "closer": "Closed set with: 'Fried Neckbones and Some Home Fries'",
             "day": ["Saturday"]   
         },
         {
             "id": 3,
             "artist": "Grateful Dead",
-            "time": "10:30pm – 12:05am",
-            "opener": "St. Stephen",
-            "closer": "Turn on Your Love Light" ,
+            "time": "Played from: 10:30pm – 12:05am",
+            "opener": "Opened set with: 'St. Stephen'",
+            "closer": "Closed set with: 'Turn on Your Love Light'" ,
             "day": ["Saturday"]   
         },
         {
             "id": 4,
             "artist": "Creedence Clearwater Revival",
-            "time": "12:30am – 1:20am",
-            "opener": "Born on The Bayou",
-            "closer": "Susie Q" ,
+            "time": "Played from: 12:30am – 1:20am",
+            "opener": "Opened set with: 'Born on The Bayou'",
+            "closer": "Closed set with: 'Susie Q'" ,
             "day": ["Saturday"]   
         },
         {
             "id": 5,
             "artist": "Janis Joplin",
-            "time": "2:00am – 3:00am",
-            "opener": "Raise Your Hand",
-            "closer": "Ball 'n' Chain" ,
+            "time": "Played from: 2:00am – 3:00am",
+            "opener": "Opened set with: 'Raise Your Hand'",
+            "closer": "Closed set with: 'Ball 'n' Chain'" ,
             "day": ["Saturday"]   
         },
         {
             "id": 6,
             "artist": "The Who",
-            "time": "5:00am – 6:05am",
-            "opener": "Heaven and Hell",
-            "closer": "Naked Eye" ,
+            "time": "Played from: 5:00am – 6:05am",
+            "opener": "Opened set with: 'Heaven and Hell'",
+            "closer": "Closed set with: 'Naked Eye'" ,
             "day": ["Sunday"]   
         },
         {
             "id": 7,
             "artist": "Jefferson Airplane",
-            "time": "8:00am – 9:40am",
-            "opener": "The Other Side of This Life",
-            "closer": "With a Little Help From My Friends" ,
+            "time": "Played from: 8:00am – 9:40am",
+            "opener": "Opened set with: 'The Other Side of This Life'",
+            "closer": "Closed set with: 'The House at Pooneil Corners'" ,
             "day": ["Sunday"]   
         },
         {
             "id": 8,
             "artist": "Joe Cocker",
-            "time": "2:00pm – 3:25pm",
-            "opener": "Dear Landlord",
-            "closer": "Ball 'n' Chain" ,
+            "time": "Played from: 2:00pm – 3:25pm",
+            "opener": "Opened set with: 'Dear Landlord'",
+            "closer": "Closed set with: 'With a Little Help From My Friends''" ,
             "day": ["Sunday"]   
         },
         {
             "id": 9,
             "artist": "Crosby, Stills, Nash, &Young",
-            "time": "3:00am – 4:00am",
-            "opener": "Suite: Judy Blue Eyes",
-            "closer": "49 Bye-Byes" ,
+            "time": "Played from: 3:00am – 4:00am",
+            "opener": "Opened set with: 'Suite: Judy Blue Eyes'",
+            "closer": "Closed set with: '49 Bye-Byes'" ,
             "day": ["Monday"]   
         },
         {
             "id": 10,
             "artist": "Jimi Hendrix",
-            "time": "9:00am – 11:10am",
-            "opener": "Raise Your Hand",
-            "closer": "Ball 'n' Chain" ,
+            "time": "Played from: 9:00am – 11:10am",
+            "opener": "Opened set with: 'Raise Your Hand'",
+            "closer": "Closed set with: 'Hey Joe" ,
             "day": ["Monday"]   
         }
 
