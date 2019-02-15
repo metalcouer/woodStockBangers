@@ -17,7 +17,7 @@ app.use(bodyParser.json())
 app.use(express.static('public'))
 
 app.get('/', (req, res, next) => {
-    knex('woodstock-data')
+    knex('headliners')
     .then((rows) => {
       res.send(rows);
     })
@@ -26,12 +26,12 @@ app.get('/', (req, res, next) => {
     });
 })
 
-app.get('/', (req, res, next) => {
-    res.status(200).send({
-        "message": "Sucess!",
-        "data": data
-    })
-})
+// app.get('/', (req, res, next) => {
+//     res.status(200).send({
+//         "message": "Sucess!",
+//         "data": data
+//     })
+// })
 
 app.get('/:day', (req, res, next) => {
     const day = req.params.day
@@ -46,6 +46,7 @@ app.get('/:day', (req, res, next) => {
 })
 
 app.post('/', (req, res) => res.send('New Artist Has Been Added'))
+
 
 
 app.use((req,res, next) => {
