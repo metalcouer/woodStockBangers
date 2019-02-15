@@ -18,6 +18,9 @@ app.use(express.static('public'))
 
 app.get('/', (req, res, next) => {
     knex('headliners')
+    .join('setlist', 'headliners.id', '=', 'setlist.headliner_id')
+    .join('songs', 'songs.setlist_id', '=', 'setlist.id')
+    
     .then((rows) => {
       res.send(rows);
     })
